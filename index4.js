@@ -12,4 +12,4 @@ app.get('/speech',(req,res) => {
 
 })
 
-app.listen()
+app.listen(8080)
