@@ -190,7 +190,7 @@ function createServer(getArgs, port) {
     }
   });
 
-  server.listen(port);
+  server.listen();
   console.log("Text-to-Speech Server running on " + port);
 }
 
