@@ -1,5 +1,5 @@
 {
-  "name": "node-gtts",
+  "name": "gtts",
   "version": "2.0.2",
   "description": "Google Text-to-Speech for NodeJS (Unofficial API)",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "node test.js"
   },
   "bin": {
-    "node-gtts": "./bin.js"
+    "node-gtts": "bin.js"
   },
   "repository": {
     "type": "git",
@@ -35,5 +35,6 @@
     "multistream": "^2.1.0",
     "node-gtts": "^2.0.2",
     "request": "^2.81.0"
-  }
+  },
+  "devDependencies": {}
 }
