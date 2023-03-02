@@ -182,7 +182,7 @@ function createServer(getArgs, port) {
       stream(argsCallback, queryData.text).pipe(res);
     } else {
       console.log(req.headers);
-      res.writeHead(200, {'Content-Type': 'application/json'});
+      res.writeHead(200, {'Content-Type': 'application/json' ,'Access-Control-Allow-Origin' : '*'});
       res.end(JSON.stringify({
         code: -1,
         message: `Missing text. Please try: ${req.headers.host}?text=your+text`
