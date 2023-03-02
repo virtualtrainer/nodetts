@@ -178,7 +178,7 @@ function createServer(getArgs, port) {
       argsCallback = getArgsFactory(queryData.lang);
     }
     if (queryData && queryData.text) {
-      res.writeHead(200, {'Content-Type': 'audio/mpeg'});
+      res.writeHead(200, {'Content-Type': 'audio/mpeg' ,'Access-Control-Allow-Origin' : '*'});
       stream(argsCallback, queryData.text).pipe(res);
     } else {
       console.log(req.headers);
