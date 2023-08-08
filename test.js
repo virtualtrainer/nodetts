@@ -4,12 +4,12 @@ var path = require('path');
 /*
  * save audio file
  */
-
+/*
 var filepath = path.join(__dirname, 'i-love-you.wav');
 gtts.save(filepath, 'I love you', function() {
   console.log(`save file: "${filepath}" done`);
 })
-
+*/
 /*
  * Create server listen port 8668
  * API:
